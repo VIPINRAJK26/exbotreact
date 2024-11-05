@@ -1,0 +1,46 @@
+.customized-btn {
+    position: relative;
+    top: -300px;
+    left: 220px;
+}
+
+.customized-img img{
+    position: relative;
+    top: -400px;
+    left: -70px;
+}
+
+.customized-center{
+    height: 55vh;
+}
+
+@media (max-width: 768px) {
+    .customized-btn {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .customized-img img{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .customized-bottom{
+        position: relative;
+        top: -250px;
+    }
+    .customized-center{
+        height: 35vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .customized-bottom{
+        position: relative;
+        top: -220px;
+    }
+    .customized-center{
+        height: 44vh;
+    }
+}
+

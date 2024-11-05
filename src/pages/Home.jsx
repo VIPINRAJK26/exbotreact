@@ -11,7 +11,7 @@ const Home = () => {
       <div>
         <Navbar />
       </div>
-      <div>
+      <div className="mt-28">
         <Hero />
       </div>
       <div>
@@ -20,7 +20,7 @@ const Home = () => {
       <div>
         <PowerfulFeatures />
       </div>
-      <div className="mt-28">
+      <div>
         <Footer />
       </div>
     </div>

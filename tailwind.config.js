@@ -7,6 +7,12 @@ export default {
         "custom-gradient":
           "linear-gradient(to right, #4fb968 30%, #00b2a9 90%)",
       },
+      fontSize: {
+        "3.6xl": "3.6rem", 
+      },
+      fontWeight:{
+        "thin":"100",
+      }
     },
   },
   plugins: [],
