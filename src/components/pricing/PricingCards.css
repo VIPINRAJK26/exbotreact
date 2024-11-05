@@ -1,0 +1,79 @@
+.section2 {
+  background-color: rgb(249, 249, 249);
+}
+
+.section4 {
+  background-color: rgb(249, 249, 249);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+#card {
+  background-image: linear-gradient(to right, #4fb968 20%, #00b2a9 100%);
+  color: white;
+}
+
+.card-custom {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-body h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-body .price {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+}
+.card-body .discount {
+  font-size: 16px;
+  font-weight: normal;
+  color: #999;
+  text-decoration: line-through;
+}
+.card-body .offer {
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff0000;
+  padding: 2px 8px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.card-custom.green-card {
+  background-color: #0a9442;
+  color: #fff;
+}
+.card-body ul {
+  list-style: none;
+  padding: 0;
+}
+.card-body ul li {
+  margin-bottom: 8px;
+}
+.card-body ul li span {
+  color: #ff0000;
+}
+
+.golden-text {
+  background: linear-gradient(90deg, #f9d423, yellow, #f9d423);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: glaze 3s infinite;
+  position: relative;
+}
+
+@keyframes glaze {
+  0% {
+    background-position: 200%;
+  }
+  100% {
+    background-position: -200%;
+  }
+}

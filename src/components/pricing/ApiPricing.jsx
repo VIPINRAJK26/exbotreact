@@ -44,7 +44,7 @@ const ApiPricing = () => {
                     </div>
                     <div className="modal-body">
                       <embed
-                        src="/static/docs/docschatbot.pdf"
+                        src="/docschatbot.pdf"
                         width="100%"
                         height="600px"
                         className="border-0"
@@ -52,8 +52,8 @@ const ApiPricing = () => {
                     </div>
                     <div className="modal-footer">
                       <a
-                        href="/static/docs/docschatbot.pdf"
-                        download="/static/docs/docschatbot.pdf"
+                        href="/docschatbot.pdf"
+                        download="/docschatbot.pdf"
                       >
                         <button
                           type="button"
