@@ -66,8 +66,8 @@ function Navbar() {
               </div>
             </div>
 
-            <div className="nav-button lg:pt-5 lg:flex lg:flex-1 lg:justify-end">
-              <div class="hidden collapse-btn lg:block lg:ml-0 xl:ml-0 xl:pl-0 lg:pl-0">
+            <div className="nav-button lg:pt-5 lg:flex lg:flex-1 lg:justify-center">
+              <div class="hidden collapse-btn lg:block lg:pl-0">
                 <a href="https://app.exapi.in/login">
                   <button class="button">My Account</button>
                 </a>

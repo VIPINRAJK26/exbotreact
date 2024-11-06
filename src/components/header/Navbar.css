@@ -14,7 +14,7 @@
 
 .nav-button{
     position: relative;
-    left: -120px;
+    /* left: -120px; */
 }
 
 .collapse-btn button::before {
