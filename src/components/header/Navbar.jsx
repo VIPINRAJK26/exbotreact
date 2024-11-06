@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <>
       <section className="bg-white">
-        <header className="fixed inset-x-0 top-0 z-50 bg-white ">
+        <header className=" inset-x-0 top-0 z-50 bg-white ">
           <nav
             aria-label="Global"
             className="flex items-center justify-between p-6 lg:px-[9rem] header-xl"

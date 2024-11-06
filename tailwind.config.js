@@ -11,7 +11,7 @@ export default {
         "3.6xl": "3.6rem",
       },
       fontWeight:{
-        "thin":"100",
+        "extra":"150",
       },
       width:{
         "1/7":"65%",

@@ -1,4 +1,3 @@
-import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -17,7 +16,7 @@ import {
 export const Footer = () => {
   return (
     <div>
-      <footer className="bg-gray-800 text-white py-8">
+      <footer className="bg-[#484848] text-white py-8">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Quick Links */}

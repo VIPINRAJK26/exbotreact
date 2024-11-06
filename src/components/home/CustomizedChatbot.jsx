@@ -3,7 +3,7 @@ import "./Customized.css";
 
 const CustomizedChatbot = () => {
   return (
-    <div>
+    <div className=''>
       <div className="Customized-header">
         <h1 className="sm:text-3.6xl text-3xl font-thin text-green-500 text-center pb-4">
           Your Customized Chatbots

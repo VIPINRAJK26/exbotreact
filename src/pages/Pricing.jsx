@@ -3,6 +3,7 @@ import Navbar from "../components/header/Navbar";
 import { Footer } from "../components/Footer/Footer";
 import ApiPricing from "../components/pricing/ApiPricing";
 import PricingCards from "../components/pricing/PricingCards";
+import { Copyright } from "../components/Footer/Copyright";
 
 
 const Pricing = () => {
@@ -22,6 +23,9 @@ const Pricing = () => {
       </div>
       <div>
         <Footer />
+      </div>
+      <div>
+        <Copyright />
       </div>
     </div>
   );

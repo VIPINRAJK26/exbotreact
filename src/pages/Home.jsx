@@ -3,6 +3,7 @@ import { Footer } from "../components/Footer/Footer";
 import Hero from "../components/home/Hero";
 import CustomizedChatbot from "../components/home/CustomizedChatbot";
 import PowerfulFeatures from "../components/home/PowerfulFeatures";
+import { Copyright } from "../components/Footer/Copyright";
 
 
 const Home = () => {
@@ -22,6 +23,9 @@ const Home = () => {
       </div>
       <div>
         <Footer />
+      </div>
+      <div>
+        <Copyright />
       </div>
     </div>
   );
