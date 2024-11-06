@@ -56,13 +56,12 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex flex-col xl:flex-row items-center text-center xl:pl-0 xl:justify-center my-4 xl:ml-20">
-            <div className="border border-green-600 rounded-2xl  flex justify-center xl:w-5/12 lg:w-9/12 md:w-5/12 sm:w-8/12 w-11/12 items-center">
-              <div className="">
+            <div className="border border-green-600 rounded-2xl  flex justify-center xl:w-[300px] lg:w-9/12 md:w-5/12 sm:w-8/12 w-11/12 items-center">
+              <div className="w-1/2">
                 <a
                   href="https://wa.me/+918606123466?text=Hi%20%20ExBot"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ width: "83px" }}
                 >
                   <img
                     src="\Whats App Icon-01.svg"
@@ -71,7 +70,7 @@ const Hero = () => {
                   />
                 </a>
               </div>
-              <div>
+              <div className="w-1/2">
                 <a
                   href="https://wa.me/+918606123466?text=Hi%20ExBot"
                   target="_blank"

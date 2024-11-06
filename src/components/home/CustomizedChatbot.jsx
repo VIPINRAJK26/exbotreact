@@ -3,7 +3,7 @@ import "./Customized.css";
 
 const CustomizedChatbot = () => {
   return (
-    <div className=''>
+    <div className="">
       <div className="Customized-header">
         <h1 className="sm:text-3.6xl text-3xl font-thin text-green-500 text-center pb-4">
           Your Customized Chatbots
@@ -21,16 +21,14 @@ const CustomizedChatbot = () => {
           experience.
         </p>
       </div>
-      <div
-        className="customized-center items-center align-center bg-custom-gradient"
-      ></div>
+      <div className="customized-center items-center align-center bg-custom-gradient"></div>
       <div className="customized-bottom sm:flex justify-center items-center">
         <div className="collapse-btn customized-btn w-full justify-center flex">
           <button className="button">Direct Connect</button>
         </div>
         <div className="customized-img flex justify-center">
           <img
-            src="\2 nd img-01.png"
+            src="https://cdn.discordapp.com/attachments/1270232664128880717/1303679923168346164/2ndimg.png?ex=672ca20a&is=672b508a&hm=872cab4238d9b88b359875c4af3baaf807e80b1e48c62b362ccda18f2ee4528d&"
             alt="no image"
             className="w-full sm:w-2/3 h-full align-center "
           />
