@@ -1,14 +1,13 @@
-import React from 'react'
 
 const PowerfulFeatures = () => {
   return (
-    <div className="container mx-auto text-white bg-custom-gradient">
+    <div className=" text-white bg-custom-gradient">
       <div
         data-aos="zoom-in-up"
         data-aos-duration="1500"
         className="text-center pt-16 pb-16"
       >
-        <h1 className="text-5xl font-thin">Powerful Features in Exbot</h1>
+        <h1 className="md:text-5xl text-2xl md:px-0 px-5 font-thin">Powerful Features in Exbot</h1>
       </div>
 
       <div className="flex flex-col md:flex-row justify-center pt-5 pb-5">

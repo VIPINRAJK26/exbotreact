@@ -1,25 +1,42 @@
 .customized-btn {
     position: relative;
-    top: -300px;
+    top: 210px;
     left: 220px;
 }
 
 .customized-img img{
     position: relative;
-    top: -400px;
+    top: 45px;
     left: -70px;
     
 }
 
 .customized-center{
-    height: 55vh;
+    max-height: 55vh;
+}
+
+@media (min-width:1600px){
+    .customized-bottom{
+        position: relative;
+        top: 100px;
+    }
+    .customized-btn {
+        position: relative;
+        top: 270px;
+        left: 200px;
+    }
+    .customized-img img{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
 }
 
 @media (max-width: 768px) {
     .customized-btn {
         position: relative;
-        top: 0px;
-        left: 0px;
+        top: 100px;
+        left: 100px;
     }
     .customized-img img{
         position: relative;
@@ -28,20 +45,79 @@
     }
     .customized-bottom{
         position: relative;
-        top: -250px;
+        top: 0px;
     }
     .customized-center{
-        height: 35vh;
+        height: 55vh;
     }
 }
 
+@media (max-width: 536px) {
+    .customized-bottom{
+        position: relative;
+        top: 100px;
+    }
+    .customized-btn {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .customized-img img{
+        top: 50px;
+    }
+    .customized-center{
+        height: 50vh;
+    }
+}
 @media (max-width: 480px) {
     .customized-bottom{
         position: relative;
-        top: -220px;
+        top: 100px;
+    }
+    .customized-btn {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .customized-img img{
+        top: 50px;
     }
     .customized-center{
-        height: 44vh;
+        max-height: 40vh;
+    }
+}
+@media (max-width: 360px) {
+    .customized-bottom{
+        position: relative;
+        top: 50px;
+    }
+    .customized-btn {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .customized-img img{
+        top: 50px;
+    }
+    .customized-center{
+        height: 50vh;
+    }
+}
+@media (max-width: 345px) {
+    .customized-bottom{
+        position: relative;
+        top: 100px;
+    }
+    .customized-btn {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .customized-img img{
+        top: 50px;
+    }
+    .customized-center{
+        height: 50vh;
     }
 }
 

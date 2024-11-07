@@ -9,24 +9,17 @@ import { Copyright } from "../components/Footer/Copyright";
 const Home = () => {
   return (
     <div>
-      <div>
-        <Navbar />
-      </div>
+      
       <div className="mt-28">
         <Hero />
       </div>
       <div>
         <CustomizedChatbot />
       </div>
-      <div>
+      <div className="w-full px-0 mx-0">
         <PowerfulFeatures />
       </div>
-      <div>
-        <Footer />
-      </div>
-      <div>
-        <Copyright />
-      </div>
+      
     </div>
   );
 };

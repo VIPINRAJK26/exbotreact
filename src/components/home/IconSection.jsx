@@ -1,12 +1,11 @@
-import "./IconSectoin.css";
 
 
 const IconSection = () => {
   return (
     <div>
-      <section className="pt-16 relative transform -translate-y-80 bg-gradient-to-r from-green-500 to-teal-600 min-h-[35vh] z-[-10]">
+      <section className="pt-16 relative   -translate-y-80  bg-gradient-to-r from-green-500 to-teal-600 min-h-[35vh] z-[-10]">
         <div className="container mx-auto">
-          <div className="flex justify-start text-white text-center gap-20 lg:pl-20 lg:ml-20 flex-wrap">
+          <div className="md:flex md:justify-start justify-center text-white text-center gap-20 lg:pl-20 lg:ml-20 flex-wrap">
             <div className=" relative w-1/4 md:w-auto animate-[riseIn_1s_ease-out_forwards] delay-500">
               <img
                 src="/Chat bot Icon-01.svg"

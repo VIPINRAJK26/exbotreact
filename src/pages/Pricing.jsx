@@ -9,10 +9,8 @@ import { Copyright } from "../components/Footer/Copyright";
 const Pricing = () => {
   return (
     <div>
-      <div>
-        <Navbar />
-      </div>
-      <div className="mt-28">
+      
+      <div className="mt-0">
         <PlanPricing />
       </div>
       <div className="">
@@ -21,12 +19,7 @@ const Pricing = () => {
       <div className="">
         <ApiPricing />
       </div>
-      <div>
-        <Footer />
-      </div>
-      <div>
-        <Copyright />
-      </div>
+      
     </div>
   );
 };

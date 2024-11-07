@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export const Copyright = () => {
   return (
@@ -7,19 +8,19 @@ export const Copyright = () => {
           <p class="pt-2 text-sm">© 2024 Exbot. All rights reserved.</p>
           <div class="flex justify-center space-x-8 md:space-x-12 mt-2">
             <div>
-              <a href="privacy.html" class="hover:underline">
+              <Link to={"/privacy"} class="hover:text-blue-950">
                 Privacy Policy
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="terms.html" class="hover:underline">
+              <Link to={"/terms"} class="hover:text-blue-950">
                 Terms and Conditions
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="refund.html" class="hover:underline">
+              <Link to={"/refund"} class="hover:text-blue-950">
                 Refund Policy
-              </a>
+              </Link>
             </div>
           </div>
         </div>

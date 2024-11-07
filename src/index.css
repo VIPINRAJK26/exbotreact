@@ -48,4 +48,9 @@
   ::-webkit-scrollbar{
     display: none;
   }
+ @media (max-width:768px){
+  .end-icon::after{
+    display: none;
+  }
+ }
 }

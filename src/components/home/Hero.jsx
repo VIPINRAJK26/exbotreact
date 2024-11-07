@@ -89,7 +89,7 @@ const Hero = () => {
           <img
             src="/Mobile -01-01new.png"
             alt=""
-            className="w-full relative md:right-[135px] bottom-[100px]"
+            className="w-full relative md:right-[105px] bottom-[100px]"
           />
         </div>
       </div>
