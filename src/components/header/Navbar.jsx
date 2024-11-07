@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-white relative top-[30px]">
         <header className=" inset-x-0 top-0 z-50 bg-white ">
           <nav
             aria-label="Global"

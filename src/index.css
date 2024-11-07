@@ -35,22 +35,28 @@
       transform: scale(1);
     }
   }
-  .end-icon::after {
+  .end-icon:not(:first-child)::after {
     content: "";
     width: 0.5px;
     height: 150px;
     display: block;
     background-color: rgb(231, 228, 228);
     position: absolute;
-    top: 25px;
-    transform: translateX(-40px) translateY(-30%);
+    top: 45px;
+    transform: translateX(-110px) translateY(20%);
   }
-  ::-webkit-scrollbar{
+
+  ::-webkit-scrollbar {
     display: none;
   }
- @media (max-width:768px){
-  .end-icon::after{
-    display: none;
+  /* @media (min-width: 1280px) {
+    .end-icon:not(:first-child)::after {
+      transform: translateX(-90px) translateY(30%);
+    }
+  } */
+  @media (max-width: 768px) {
+    .end-icon:not(:first-child)::after {
+      display: none;
+    }
   }
- }
 }

@@ -8,7 +8,7 @@ const CustomizedChatbot = () => {
         <h1 className="sm:text-3.6xl text-3xl font-thin text-green-500 text-center pb-4">
           Your Customized Chatbots
         </h1>
-        <p className="m-auto text-justify text-lg  sm:w-1/2 w-3/4 pb-2">
+        <p className="m-auto text-justify text-lg font-bold  sm:w-1/2 w-3/4 py-4">
           Our Custom WhatsApp chatbot feature can able to design targeting
           communications to automate and personalize interactions on WhatsApp.
           These chat bots are tailored to meet specific business needs, such as

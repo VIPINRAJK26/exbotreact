@@ -13,7 +13,7 @@ const Home = () => {
       <div className="mt-28">
         <Hero />
       </div>
-      <div>
+      <div className="relative md:bottom-[50px]">
         <CustomizedChatbot />
       </div>
       <div className="w-full px-0 mx-0">

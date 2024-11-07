@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Refund = () => {
   return (
-    <div className='container mx-auto'>
+    <div className="container px-40 mt-10">
       <section class="pt-5 pb-5">
         <h1>
           <strong>Refund Policy</strong>
