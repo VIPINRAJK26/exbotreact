@@ -72,9 +72,9 @@ const ApiPricing = () => {
             {/* Right Side */}
             <div className="md:w-1/2 w-full">
               <div className="card card-custom text-center bg-white shadow-lg rounded-lg p-5">
-                <h6 className="card-title font-semibold text-xl">
+                <p className="text-xl font-semibold">
                   Let us setup Everything For you
-                </h6>
+                </p>
                 <h3 className="text-4xl pt-3 text-green-700 font-bold">
                   Custom Chatbot
                 </h3>

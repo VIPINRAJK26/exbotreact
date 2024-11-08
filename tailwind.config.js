@@ -9,9 +9,11 @@ export default {
       },
       fontSize: {
         "3.6xl": "3.6rem",
+        "4.1xl": "2.6rem",
+        "5.5xl":"3.5rem"
       },
       fontWeight:{
-        "extra":"150",
+        "extra":"300",
       },
       width:{
         "1/7":"65%",

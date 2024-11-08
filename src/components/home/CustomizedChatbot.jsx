@@ -9,7 +9,7 @@ const CustomizedChatbot = () => {
           data-aos="fade-up"
           data-aos-offset="100"
           data-aos-delay="0"
-          className="sm:text-3.6xl text-3xl font-thin text-[#45B65B] text-center pb-4"
+          className="sm:text-3.6xl text-3xl font-extra text-[#45B65B] text-center pb-4"
         >
           Your Customized Chatbots
         </h1>

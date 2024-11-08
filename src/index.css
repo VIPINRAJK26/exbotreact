@@ -13,6 +13,10 @@
     animation: pulse2 1.5s infinite;
   }
 
+  .cross-barrier{
+    font-weight: 300;
+  }
+
   @keyframes riseIn {
     0% {
       opacity: 0;

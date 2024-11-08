@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Terms = () => {
   return (
-    <div className="container px-40 mt-10">
+    <div className="container md:px-40 md:mt-10">
       <section class="pt-5 pb-5">
         <h1>
           <strong>Terms and Conditions</strong>

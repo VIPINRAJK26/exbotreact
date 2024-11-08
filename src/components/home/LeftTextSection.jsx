@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 function LeftTextSection() {
   return (
     <div className="hero-left text-center lg:text-left sm:px-0 px-8 w-full ">
-      <h1 className="text-3xl text-[gray-900] lg:text-5xl font-thin mb-4">
+      <h1 className="cross-barrier text-3xl font-extra text-[gray-800] lg:text-5xl  md:mb-7 mb-4">
         Cross the Barrier of Business With Powerful
       </h1>
-      <h2 className="text-4xl lg:text-6xl font-bold text-[#45B65B] mb-4">
+      <h2 className="text-4xl lg:text-5.5xl font-bold text-[#45B65B] md:mb-7 mb-4">
         WhatsApp Automation
       </h2>
       <div className="flex flex-1 justify-center relative sm:top-0 top-[20px]  2xl:my-5 ">
@@ -35,15 +35,15 @@ function LeftTextSection() {
           <img
             src="/Whats App Icon-01.svg"
             alt="WhatsApp Icon"
-            className="w-24"
+            className="w-20"
           />
         </Link>
         <Link
           to={"https://wa.me/+918606123466?text=Hi%20%20ExBot"}
           target="_blank"
         >
-          <p className="text-gray-900 font-thin pr-1 text-center hover:text-green-600">
-            Let's chat to know more about exbot Automaton
+          <p className="text-gray-900 font-light text-center hover:text-green-600 pl-3">
+            Let's chat to know more about <br /> exbot Automaton
           </p>
         </Link>
       </div>
