@@ -112,14 +112,14 @@ function Navbar() {
                     </Link>
 
                     <Link
-                      to={"/"}
+                      to={"https://app.exapi.in/login"}
                       onClick={() => setMobileMenuOpen(false)}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-green-100"
                     >
                       Login
                     </Link>
                     <Link
-                      to={"/contact"}
+                      to={"/pricing"}
                       onClick={() => setMobileMenuOpen(false)}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-green-100"
                     >
