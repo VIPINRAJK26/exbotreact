@@ -42,7 +42,7 @@ const CustomizedChatbot = () => {
             className="customized-img flex justify-center"
           >
             <img
-              src="https://cdn.discordapp.com/attachments/1270232664128880717/1303679923168346164/2ndimg.png?ex=672ca20a&is=672b508a&hm=872cab4238d9b88b359875c4af3baaf807e80b1e48c62b362ccda18f2ee4528d&"
+              src="/exbot-II-image.png"
               alt="no image"
               className="w-full sm:w-2/3 h-full align-center "
             />
