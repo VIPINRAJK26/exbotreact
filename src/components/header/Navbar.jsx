@@ -49,8 +49,8 @@ function Navbar() {
 
               <div className="relative">
                 <Link
-                  to="/"
-                  className="text-base font-medium leading-6 text-gray-900 hover:text-green-500"
+                  to="https://app.exapi.in/login"
+                  https:className="text-base font-medium leading-6 text-gray-900 hover:text-green-500" //app.exapi.in/login
                 >
                   Login
                 </Link>

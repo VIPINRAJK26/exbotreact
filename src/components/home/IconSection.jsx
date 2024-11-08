@@ -2,7 +2,7 @@
 
 const IconSection = () => {
   return (
-    <div className="mb-7 md:mb-0">
+    <div className="mb-7 md:mb-0 z-0">
       <div className="bg-custom-gradient p-6 lg:px-20 flex flex-col md:flex-row items-center gap-10 md:gap-0 justify-start min-h-[40vh]">
         {[
           { label: "Chat bot", icon: "/Chat bot Icon-01.svg" },

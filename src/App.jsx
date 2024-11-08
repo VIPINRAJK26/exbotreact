@@ -8,9 +8,20 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import { Terms } from './pages/Terms';
 import { Refund } from './pages/Refund';
 import { Privacy } from './pages/Privacy';
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 900, 
+      easing: "ease-in-out", 
+      once: false,
+    });
+  }, []);
 
   return (
     <BrowserRouter>

@@ -11,6 +11,7 @@ import {
   faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 
 export const Footer = () => {
@@ -32,14 +33,14 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="index.html" className="hover:underline">
+                  <Link to={"/"} className="hover:underline">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="pricing2.html" className="hover:underline">
+                  <Link to={"/pricing"} className="hover:underline">
                     Pricing
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

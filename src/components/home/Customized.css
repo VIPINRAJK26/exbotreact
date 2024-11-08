@@ -1,123 +1,139 @@
 .customized-btn {
-    position: relative;
-    top: 210px;
-    left: 220px;
+  position: relative;
+  top: 210px;
+  left: 220px;
 }
 
-.customized-img img{
+.customized-img img {
+  position: relative;
+  top: 45px;
+  left: -70px;
+}
+
+.customized-center {
+  max-height: 55vh;
+}
+
+@media (min-width: 1900px)  {
+  /* .customized-bottom {
     position: relative;
-    top: 45px;
-    left: -70px;
+    top: 500px;
     
+  } */
+  .customized-btn {
+    position: relative;
+    top: 200px;
+    left: 250px;
+  }
+  .customized-img img {
+    position: relative;
+    top: 0px;
+    left: -150px;
+  }
 }
 
-.customized-center{
-    max-height: 55vh;
-}
-
-@media (min-width:1600px){
-    .customized-bottom{
-        position: relative;
-        top: 100px;
-    }
-    .customized-btn {
-        position: relative;
-        top: 270px;
-        left: 200px;
-    }
-    .customized-img img{
-        position: relative;
-        top: 50px;
-        left: -200px;
-    }
+@media (min-width: 1600px) and (max-width: 1900px) {
+  .customized-bottom {
+    position: relative;
+    top: 100px;
+  }
+  .customized-btn {
+    position: relative;
+    top: 270px;
+    left: 200px;
+  }
+  .customized-img img {
+    position: relative;
+    top: 50px;
+    left: -200px;
+  }
 }
 
 @media (max-width: 768px) {
-    .customized-btn {
-        position: relative;
-        top: 100px;
-        left: 100px;
-    }
-    .customized-img img{
-        position: relative;
-        top: 0px;
-        left: 0px;
-    }
-    .customized-bottom{
-        position: relative;
-        top: 0px;
-    }
-    .customized-center{
-        height: 55vh;
-    }
+  .customized-btn {
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+  .customized-img img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .customized-bottom {
+    position: relative;
+    top: 0px;
+  }
+  .customized-center {
+    height: 55vh;
+  }
 }
 
 @media (max-width: 536px) {
-    .customized-bottom{
-        position: relative;
-        top: 100px;
-    }
-    .customized-btn {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    .customized-img img{
-        top: 50px;
-    }
-    .customized-center{
-        height: 50vh;
-    }
+  .customized-bottom {
+    position: relative;
+    top: 100px;
+  }
+  .customized-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .customized-img img {
+    top: 50px;
+  }
+  .customized-center {
+    height: 50vh;
+  }
 }
 @media (max-width: 480px) {
-    .customized-bottom{
-        position: relative;
-        top: 100px;
-    }
-    .customized-btn {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    .customized-img img{
-        top: 50px;
-    }
-    .customized-center{
-        max-height: 40vh;
-    }
+  .customized-bottom {
+    position: relative;
+    top: 100px;
+  }
+  .customized-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .customized-img img {
+    top: 50px;
+  }
+  .customized-center {
+    max-height: 40vh;
+  }
 }
 @media (max-width: 360px) {
-    .customized-bottom{
-        position: relative;
-        top: 50px;
-    }
-    .customized-btn {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    .customized-img img{
-        top: 50px;
-    }
-    .customized-center{
-        height: 50vh;
-    }
+  .customized-bottom {
+    position: relative;
+    top: 50px;
+  }
+  .customized-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .customized-img img {
+    top: 50px;
+  }
+  .customized-center {
+    height: 50vh;
+  }
 }
 @media (max-width: 345px) {
-    .customized-bottom{
-        position: relative;
-        top: 100px;
-    }
-    .customized-btn {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-    .customized-img img{
-        top: 50px;
-    }
-    .customized-center{
-        height: 50vh;
-    }
+  .customized-bottom {
+    position: relative;
+    top: 100px;
+  }
+  .customized-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .customized-img img {
+    top: 50px;
+  }
+  .customized-center {
+    height: 50vh;
+  }
 }
-
