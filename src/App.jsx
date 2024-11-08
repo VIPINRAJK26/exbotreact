@@ -11,6 +11,7 @@ import { Privacy } from './pages/Privacy';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css"; 
+import ScrollToTopButton from './components/home/ScrollToTop';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/refund" element={<Refund />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
+      <ScrollToTopButton/>
       <Footer />
       <Copyright/>
     </BrowserRouter>
