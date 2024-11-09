@@ -1,13 +1,15 @@
 import PlanPricing from "../components/pricing/PlanPricing";
 import ApiPricing from "../components/pricing/ApiPricing";
 import PricingCards from "../components/pricing/PricingCards";
-
+import NavbarPricing from "../components/header/NavbarPricing";
 
 const Pricing = () => {
   return (
     <div>
-      
-      <div className="mt-8">
+      <div>
+        <NavbarPricing />
+      </div>
+      <div className="mt-5">
         <PlanPricing />
       </div>
       <div className="">
@@ -16,7 +18,6 @@ const Pricing = () => {
       <div className="">
         <ApiPricing />
       </div>
-      
     </div>
   );
 };

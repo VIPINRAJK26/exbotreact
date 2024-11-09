@@ -1,17 +1,17 @@
-
 export const Privacy = () => {
   return (
-    <div className='container md:px-10 md:mt-10 text-justify'>
+    <div className="w-10/12 lg:mx-auto md:w-9/12 mt-10 mx-auto text-justify">
       <section class="pt-5 pb-5">
-        <h1>Privacy Policy</h1>
-        <p>Last updated: August 31, 024</p>
-        <p>
+        <h1 class="text-4xl font-bold pb-3">Privacy Policy</h1>
+        <p class="mb-4">Last updated: August 31, 2024</p>
+        <p class="mb-4">
           This Privacy Policy describes Our policies and procedures on the
-          collection, use and disclosure of Your information when You use the
+          collection, use, and disclosure of Your information when You use the
           Service and tells You about Your privacy rights and how the law
           protects You.
         </p>
-        <p>
+
+        <p class="mb-4">
           We use Your Personal data to provide and improve the Service. By using
           the Service, You agree to the collection and use of information in
           accordance with this Privacy Policy. This Privacy Policy has been
@@ -19,22 +19,28 @@ export const Privacy = () => {
           <a
             href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/"
             target="_blank"
+            class="text-blue-500 underline"
           >
             Free Privacy Policy Generator
           </a>
           .
         </p>
-        <h2>Interpretation and Definitions</h2>
-        <h3>Interpretation</h3>
-        <p>
+
+        <h2 class="text-3xl font-semibold mb-2">
+          Interpretation and Definitions
+        </h2>
+        <h3 class="text-2xl font-semibold mb-2">Interpretation</h3>
+        <p class="mb-4">
           The words of which the initial letter is capitalized have meanings
           defined under the following conditions. The following definitions
           shall have the same meaning regardless of whether they appear in
           singular or in plural.
         </p>
-        <h3>Definitions</h3>
-        <p>For the purposes of this Privacy Policy:</p>
-        <ul>
+
+        <h3 class="text-2xl font-semibold mb-2">Definitions</h3>
+        <p class="mb-4">For the purposes of this Privacy Policy:</p>
+
+        <ul class="list-disc list-inside space-y-2 mb-4">
           <li>
             <p>
               <strong>Account</strong> means a unique account created for You to
@@ -45,16 +51,15 @@ export const Privacy = () => {
             <p>
               <strong>Affiliate</strong> means an entity that controls, is
               controlled by or is under common control with a party, where
-              &quot;control&quot; means ownership of 50% or more of the shares,
-              equity interest or other securities entitled to vote for election
-              of directors or other managing authority.
+              "control" means ownership of 50% or more of the shares, equity
+              interest or other securities entitled to vote for election of
+              directors or other managing authority.
             </p>
           </li>
           <li>
             <p>
-              <strong>Company</strong> (referred to as either &quot;the
-              Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
-              in this Agreement) refers to www.exbot.in.
+              <strong>Company</strong> (referred to as either "the Company",
+              "We", "Us" or "Our" in this Agreement) refers to www.exbot.in.
             </p>
           </li>
           <li>
@@ -119,6 +124,7 @@ export const Privacy = () => {
                 href="www.exbot.in"
                 rel="external nofollow noopener"
                 target="_blank"
+                class="text-blue-500 underline"
               >
                 www.exbot.in
               </a>
@@ -132,16 +138,20 @@ export const Privacy = () => {
             </p>
           </li>
         </ul>
-        <h2>Collecting and Using Your Personal Data</h2>
-        <h3>Types of Data Collected</h3>
-        <h4>Personal Data</h4>
-        <p>
+
+        <h2 class="text-3xl font-semibold mb-2">
+          Collecting and Using Your Personal Data
+        </h2>
+        <h3 class="text-2xl font-semibold mb-2">Types of Data Collected</h3>
+        <h4 class="text-xl font-semibold mb-2">Personal Data</h4>
+        <p class="mb-4">
           While using Our Service, We may ask You to provide Us with certain
           personally identifiable information that can be used to contact or
           identify You. Personally identifiable information may include, but is
           not limited to:
         </p>
-        <ul>
+
+        <ul class="list-disc list-inside space-y-2 mb-4">
           <li>
             <p>Email address</p>
           </li>
@@ -158,8 +168,12 @@ export const Privacy = () => {
             <p>Usage Data</p>
           </li>
         </ul>
-        <h4>Usage Data</h4>
-        <p>Usage Data is collected automatically when using the Service.</p>
+
+        <h4 class="text-xl font-semibold mb-2">Usage Data</h4>
+        <p class="mb-4">
+          Usage Data is collected automatically when using the Service.
+        </p>
+
         <p>
           Usage Data may include information such as Your Device's Internet
           Protocol address (e.g. IP address), browser type, browser version, the
@@ -575,4 +589,4 @@ export const Privacy = () => {
       </section>
     </div>
   );
-}
+};

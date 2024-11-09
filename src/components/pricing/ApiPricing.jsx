@@ -5,7 +5,7 @@ const ApiPricing = () => {
   const [modalOpen, setModalOpen] = useState(false);
   return (
     <div>
-      <section className="section3 mx-12">
+      <section className="container mx-auto section3 ">
         <div className="container  pricing-section">
           <div className="flex flex-col md:flex-row items-center justify-center text-center">
             {/* Left Side */}

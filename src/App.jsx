@@ -26,7 +26,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
+      {location.pathname !== "/pricing" && <Navbar />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pricing" element={<Pricing />} />
@@ -34,9 +34,9 @@ function App() {
         <Route path="/refund" element={<Refund />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
-      <ScrollToTopButton/>
+      <ScrollToTopButton />
       <Footer />
-      <Copyright/>
+      <Copyright />
     </BrowserRouter>
   );
 }

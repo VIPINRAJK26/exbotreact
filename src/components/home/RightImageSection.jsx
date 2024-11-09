@@ -7,7 +7,7 @@ function RightImageSection() {
         <img
           src="\Mobile -01-01new.png"
           alt="Mobile displaying chat"
-          className="w-full relative bottom-[50px] z-10  "
+          className="right-image w-full relative bottom-[50px] z-10  "
         />
       </div>
     </div>
