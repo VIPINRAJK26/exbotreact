@@ -52,9 +52,14 @@
     }
 }
 
+@media (min-width: 1500px) and (max-width:2000px) {
+    .nav-img{
+        transform: translateX(11%);
+    }
+}
 @media (min-width: 2000px) and (max-width:2500px) {
     .nav-img{
-        transform: translateX(8%);
+        transform: translateX(15%);
     }
 }
 

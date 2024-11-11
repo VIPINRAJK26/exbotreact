@@ -40,7 +40,7 @@ export const Privacy = () => {
         <h3 class="text-2xl font-semibold mb-2">Definitions</h3>
         <p class="mb-4">For the purposes of this Privacy Policy:</p>
 
-        <ul class="list-disc list-inside space-y-2 mb-4">
+        <ul class="list-disc ml-5 space-y-2 mb-4">
           <li>
             <p>
               <strong>Account</strong> means a unique account created for You to
@@ -151,7 +151,7 @@ export const Privacy = () => {
           not limited to:
         </p>
 
-        <ul class="list-disc list-inside space-y-2 mb-4">
+        <ul class="list-disc ml-5 space-y-2 mb-4">
           <li>
             <p>Email address</p>
           </li>
@@ -174,14 +174,14 @@ export const Privacy = () => {
           Usage Data is collected automatically when using the Service.
         </p>
 
-        <p>
+        <p class="mb-4">
           Usage Data may include information such as Your Device's Internet
           Protocol address (e.g. IP address), browser type, browser version, the
           pages of our Service that You visit, the time and date of Your visit,
           the time spent on those pages, unique device identifiers and other
           diagnostic data.
         </p>
-        <p>
+        <p class="mb-4">
           When You access the Service by or through a mobile device, We may
           collect certain information automatically, including, but not limited
           to, the type of mobile device You use, Your mobile device unique ID,
@@ -189,31 +189,33 @@ export const Privacy = () => {
           the type of mobile Internet browser You use, unique device identifiers
           and other diagnostic data.
         </p>
-        <p>
+        <p class="mb-4">
           We may also collect information that Your browser sends whenever You
           visit our Service or when You access the Service by or through a
           mobile device.
         </p>
-        <h4>Information from Third-Party Social Media Services</h4>
+        <h4 className="text-xl font-semibold">
+          Information from Third-Party Social Media Services
+        </h4>
         <p>
           The Company allows You to create an account and log in to use the
           Service through the following Third-party Social Media Services:
         </p>
-        <ul>
-          <li>Google</li>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Twitter</li>
-          <li>LinkedIn</li>
+        <ul className="py-2">
+          <li className="list-disc ml-5 py-1">Google</li>
+          <li className="list-disc ml-5 py-1">Facebook</li>
+          <li className="list-disc ml-5 py-1">Instagram</li>
+          <li className="list-disc ml-5 py-1">Twitter</li>
+          <li className="list-disc ml-5 py-1">LinkedIn</li>
         </ul>
-        <p>
+        <p class="mb-4">
           If You decide to register through or otherwise grant us access to a
           Third-Party Social Media Service, We may collect Personal data that is
           already associated with Your Third-Party Social Media Service's
           account, such as Your name, Your email address, Your activities or
           Your contact list associated with that account.
         </p>
-        <p>
+        <p class="mb-4">
           You may also have the option of sharing additional information with
           the Company through Your Third-Party Social Media Service's account.
           If You choose to provide such information and Personal Data, during
@@ -221,8 +223,10 @@ export const Privacy = () => {
           use, share, and store it in a manner consistent with this Privacy
           Policy.
         </p>
-        <h4>Tracking Technologies and Cookies</h4>
-        <p>
+        <h4 className="text-xl font-semibold mb-2">
+          Tracking Technologies and Cookies
+        </h4>
+        <p class="mb-4">
           We use Cookies and similar tracking technologies to track the activity
           on Our Service and store certain information. Tracking technologies
           used are beacons, tags, and scripts to collect and track information
@@ -230,7 +234,7 @@ export const Privacy = () => {
           include:
         </p>
         <ul>
-          <li>
+          <li className="list-disc ml-5">
             <strong>Cookies or Browser Cookies.</strong> A cookie is a small
             file placed on Your Device. You can instruct Your browser to refuse
             all Cookies or to indicate when a Cookie is being sent. However, if
@@ -238,7 +242,7 @@ export const Privacy = () => {
             our Service. Unless you have adjusted Your browser setting so that
             it will refuse Cookies, our Service may use Cookies.
           </li>
-          <li>
+          <li className="list-disc ml-5">
             <strong>Web Beacons.</strong> Certain sections of our Service and
             our emails may contain small electronic files known as web beacons
             (also referred to as clear gifs, pixel tags, and single-pixel gifs)
@@ -248,7 +252,7 @@ export const Privacy = () => {
             section and verifying system and server integrity).
           </li>
         </ul>
-        <p>
+        <p className="my-4">
           Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies.
           Persistent Cookies remain on Your personal computer or mobile device
           when You go offline, while Session Cookies are deleted as soon as You
@@ -261,12 +265,12 @@ export const Privacy = () => {
           </a>
           article.
         </p>
-        <p>
+        <p className="mb-4">
           We use both Session and Persistent Cookies for the purposes set out
           below:
         </p>
         <ul>
-          <li>
+          <li className="list-disc ml-5 py-3">
             <p>
               <strong>Necessary / Essential Cookies</strong>
             </p>
@@ -281,7 +285,7 @@ export const Privacy = () => {
               to provide You with those services.
             </p>
           </li>
-          <li>
+          <li className="list-disc ml-5 py-3">
             <p>
               <strong>Cookies Policy / Notice Acceptance Cookies</strong>
             </p>
@@ -292,7 +296,7 @@ export const Privacy = () => {
               cookies on the Website.
             </p>
           </li>
-          <li>
+          <li className="list-disc ml-5 py-3">
             <p>
               <strong>Functionality Cookies</strong>
             </p>
@@ -307,21 +311,23 @@ export const Privacy = () => {
             </p>
           </li>
         </ul>
-        <p>
+        <p className="pb-4">
           For more information about the cookies we use and your choices
           regarding cookies, please visit our Cookies Policy or the Cookies
           section of our Privacy Policy.
         </p>
-        <h3>Use of Your Personal Data</h3>
+        <h3 className="text-2xl font-semibold pb-4">
+          Use of Your Personal Data
+        </h3>
         <p>The Company may use Personal Data for the following purposes:</p>
         <ul>
-          <li>
+          <li className="list-disc py-2 ml-5">
             <p>
               <strong>To provide and maintain our Service</strong>, including to
               monitor the usage of our Service.
             </p>
           </li>
-          <li>
+          <li className="list-disc py-2 ml-5">
             <p>
               <strong>To manage Your Account:</strong> to manage Your
               registration as a user of the Service. The Personal Data You
@@ -329,7 +335,7 @@ export const Privacy = () => {
               Service that are available to You as a registered user.
             </p>
           </li>
-          <li>
+          <li className="list-disc py-2 ml-5">
             <p>
               <strong>For the performance of a contract:</strong> the
               development, compliance and undertaking of the purchase contract
@@ -337,7 +343,7 @@ export const Privacy = () => {
               other contract with Us through the Service.
             </p>
           </li>
-          <li>
+          <li className="list-disc py-2 ml-5">
             <p>
               <strong>To contact You:</strong> To contact You by email,
               telephone calls, SMS, or other equivalent forms of electronic
@@ -348,7 +354,7 @@ export const Privacy = () => {
               implementation.
             </p>
           </li>
-          <li>
+          <li className="list-disc py-2 ml-5">
             <p>
               <strong>To provide You</strong> with news, special offers and
               general information about other goods, services and events which
@@ -357,13 +363,13 @@ export const Privacy = () => {
               information.
             </p>
           </li>
-          <li>
+          <li className="list-disc py-2 ml-5">
             <p>
               <strong>To manage Your requests:</strong> To attend and manage
               Your requests to Us.
             </p>
           </li>
-          <li>
+          <li className="list-disc py-2 ml-5">
             <p>
               <strong>For business transfers:</strong> We may use Your
               information to evaluate or conduct a merger, divestiture,
@@ -374,7 +380,7 @@ export const Privacy = () => {
               the assets transferred.
             </p>
           </li>
-          <li>
+          <li className="list-disc py-2 ml-5">
             <p>
               <strong>For other purposes</strong>: We may use Your information
               for other purposes, such as data analysis, identifying usage
@@ -388,30 +394,30 @@ export const Privacy = () => {
           We may share Your personal information in the following situations:
         </p>
         <ul>
-          <li>
+          <li className="list-disc ml-5 py-2">
             <strong>With Service Providers:</strong> We may share Your personal
             information with Service Providers to monitor and analyze the use of
             our Service, to contact You.
           </li>
-          <li>
+          <li className="list-disc ml-5 py-2">
             <strong>For business transfers:</strong> We may share or transfer
             Your personal information in connection with, or during negotiations
             of, any merger, sale of Company assets, financing, or acquisition of
             all or a portion of Our business to another company.
           </li>
-          <li>
+          <li className="list-disc ml-5 py-2">
             <strong>With Affiliates:</strong> We may share Your information with
             Our affiliates, in which case we will require those affiliates to
             honor this Privacy Policy. Affiliates include Our parent company and
             any other subsidiaries, joint venture partners or other companies
             that We control or that are under common control with Us.
           </li>
-          <li>
+          <li className="list-disc ml-5 py-2">
             <strong>With business partners:</strong> We may share Your
             information with Our business partners to offer You certain
             products, services or promotions.
           </li>
-          <li>
+          <li className="list-disc ml-5 py-2">
             <strong>With other users:</strong> when You share personal
             information or otherwise interact in the public areas with other
             users, such information may be viewed by all users and may be
@@ -422,12 +428,14 @@ export const Privacy = () => {
             will be able to view descriptions of Your activity, communicate with
             You and view Your profile.
           </li>
-          <li>
+          <li className="list-disc ml-5 py-2">
             <strong>With Your consent</strong>: We may disclose Your personal
             information for any other purpose with Your consent.
           </li>
         </ul>
-        <h3>Retention of Your Personal Data</h3>
+        <h3 className="text-2xl font-bold pb-2">
+          Retention of Your Personal Data
+        </h3>
         <p>
           The Company will retain Your Personal Data only for as long as is
           necessary for the purposes set out in this Privacy Policy. We will
@@ -443,7 +451,9 @@ export const Privacy = () => {
           improve the functionality of Our Service, or We are legally obligated
           to retain this data for longer time periods.
         </p>
-        <h3>Transfer of Your Personal Data</h3>
+        <h3 className="text-2xl font-bold pb-2">
+          Transfer of Your Personal Data
+        </h3>
         <p>
           Your information, including Personal Data, is processed at the
           Company's operating offices and in any other places where the parties
@@ -464,7 +474,7 @@ export const Privacy = () => {
           organization or a country unless there are adequate controls in place
           including the security of Your data and other personal information.
         </p>
-        <h3>Delete Your Personal Data</h3>
+        <h3 className="text-2xl font-bold pb-2">Delete Your Personal Data</h3>
         <p>
           You have the right to delete or request that We assist in deleting the
           Personal Data that We have collected about You.
@@ -484,47 +494,51 @@ export const Privacy = () => {
           Please note, however, that We may need to retain certain information
           when we have a legal obligation or lawful basis to do so.
         </p>
-        <h3>Disclosure of Your Personal Data</h3>
-        <h4>Business Transactions</h4>
+        <h3 className="text-2xl font-bold pb-2">
+          Disclosure of Your Personal Data
+        </h3>
+        <h4 className="text-xl font-semibold pb-2">Business Transactions</h4>
         <p>
           If the Company is involved in a merger, acquisition or asset sale,
           Your Personal Data may be transferred. We will provide notice before
           Your Personal Data is transferred and becomes subject to a different
           Privacy Policy.
         </p>
-        <h4>Law enforcement</h4>
+        <h4 className="text-xl font-semibold pb-2">Law enforcement</h4>
         <p>
           Under certain circumstances, the Company may be required to disclose
           Your Personal Data if required to do so by law or in response to valid
           requests by public authorities (e.g. a court or a government agency).
         </p>
-        <h4>Other legal requirements</h4>
+        <h4 className="text-xl font-semibold pb-2">Other legal requirements</h4>
         <p>
           The Company may disclose Your Personal Data in the good faith belief
           that such action is necessary to:
         </p>
-        <ul>
-          <li>Comply with a legal obligation</li>
-          <li>Protect and defend the rights or property of the Company</li>
+        <ul className="py-2">
+          <li className="list-disc ml-5">Comply with a legal obligation</li>
+          <li className="list-disc ml-5">
+            Protect and defend the rights or property of the Company
+          </li>
           <li>
             Prevent or investigate possible wrongdoing in connection with the
             Service
           </li>
-          <li>
+          <li className="list-disc ml-5">
             Protect the personal safety of Users of the Service or the public
           </li>
-          <li>Protect against legal liability</li>
+          <li className="list-disc ml-5">Protect against legal liability</li>
         </ul>
-        <h3>Security of Your Personal Data</h3>
-        <p>
+        <h3 className="text-2xl font-bold">Security of Your Personal Data</h3>
+        <p className="py-2">
           The security of Your Personal Data is important to Us, but remember
           that no method of transmission over the Internet, or method of
           electronic storage is 100% secure. While We strive to use commercially
           acceptable means to protect Your Personal Data, We cannot guarantee
           its absolute security.
         </p>
-        <h2>Children's Privacy</h2>
-        <p>
+        <h2 className="text-3xl font-bold">Children's Privacy</h2>
+        <p className="py-2">
           Our Service does not address anyone under the age of 13. We do not
           knowingly collect personally identifiable information from anyone
           under the age of 13. If You are a parent or guardian and You are aware
@@ -533,45 +547,45 @@ export const Privacy = () => {
           under the age of 13 without verification of parental consent, We take
           steps to remove that information from Our servers.
         </p>
-        <p>
+        <p className="pb-2">
           If We need to rely on consent as a legal basis for processing Your
           information and Your country requires consent from a parent, We may
           require Your parent's consent before We collect and use that
           information.
         </p>
-        <h2>Links to Other Websites</h2>
-        <p>
+        <h2 className="text-3xl font-bold">Links to Other Websites</h2>
+        <p className="py-2">
           Our Service may contain links to other websites that are not operated
           by Us. If You click on a third party link, You will be directed to
           that third party's site. We strongly advise You to review the Privacy
           Policy of every site You visit.
         </p>
-        <p>
+        <p className="pb-2">
           We have no control over and assume no responsibility for the content,
           privacy policies or practices of any third party sites or services.
         </p>
-        <h2>Changes to this Privacy Policy</h2>
-        <p>
+        <h2 className="text-3xl font-bold">Changes to this Privacy Policy</h2>
+        <p className="py-2">
           We may update Our Privacy Policy from time to time. We will notify You
           of any changes by posting the new Privacy Policy on this page.
         </p>
-        <p>
+        <p className="pb-2">
           We will let You know via email and/or a prominent notice on Our
           Service, prior to the change becoming effective and update the
           &quot;Last updated&quot; date at the top of this Privacy Policy.
         </p>
-        <p>
+        <p className="pb-2">
           You are advised to review this Privacy Policy periodically for any
           changes. Changes to this Privacy Policy are effective when they are
           posted on this page.
         </p>
-        <h2>Contact Us</h2>
+        <h2 className="font-bold text-3xl">Contact Us</h2>
         <p>
           If you have any questions about this Privacy Policy, You can contact
           us:
         </p>
         <ul>
-          <li>
+          <li className="list-disc ml-5">
             By email:
             <a
               href="/cdn-cgi/l/email-protection"

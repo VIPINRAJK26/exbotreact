@@ -9,7 +9,7 @@ function NavbarPricing() {
 
   return (
     <>
-      <section className="container mx-auto bg-white ">
+      <section className="container mx-auto bg-white " id="nav-pricing">
         <header className=" inset-x-0 top-0 z-50 bg-white ">
           <nav
             aria-label="Global"
