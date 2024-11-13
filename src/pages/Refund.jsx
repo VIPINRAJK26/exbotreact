@@ -1,4 +1,4 @@
-import React from 'react'
+import "./Privacy.css";
 
 export const Refund = () => {
   return (
@@ -103,4 +103,4 @@ export const Refund = () => {
       </section>
     </div>
   );
-}
+};

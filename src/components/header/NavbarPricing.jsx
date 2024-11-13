@@ -9,13 +9,13 @@ function NavbarPricing() {
 
   return (
     <>
-      <section className="container mx-auto bg-white " id="nav-pricing">
+      <section className="container mx-auto bg-white" id="nav-pricing">
         <header className=" inset-x-0 top-0 z-50 bg-white ">
           <nav
             aria-label="Global"
             className="flex items-center justify-between p-6 lg:px-[1rem] header-xl"
           >
-            <div className="nav-img flex lg:flex-1">
+            <div className="img-pricing flex lg:flex-1">
               <Link to="/" className="-m-1.5 p-1.5">
                 <img
                   alt="nav-logo"

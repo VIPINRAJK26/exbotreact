@@ -1,4 +1,4 @@
-import React from "react";
+import "./Privacy.css";
 
 export const Terms = () => {
   return (

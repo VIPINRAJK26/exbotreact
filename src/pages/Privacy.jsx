@@ -1,3 +1,5 @@
+import "./Privacy.css";
+
 export const Privacy = () => {
   return (
     <div className="w-10/12 lg:mx-auto md:w-9/12 mt-10 mx-auto text-justify">

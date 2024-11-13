@@ -1,5 +1,5 @@
 .collapse-btn  button{
-    background: linear-gradient(90deg, #00DE92, #00B2A9); /* Button gradient */
+    background: linear-gradient(90deg, #00DE92, #00B2A9); 
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -14,7 +14,6 @@
 
 .nav-button{
     position: relative;
-    /* left: -120px; */
 }
 
 .collapse-btn button::before {
@@ -24,8 +23,8 @@
     left: -5px;
     right: -5px;
     bottom: -5px;
-    border-radius: 10px; /* Outer layer */
-    border: 2px solid rgba(0, 190, 160, 0.5); /* Outer layer color */
+    border-radius: 10px; 
+    border: 2px solid rgba(0, 190, 160, 0.5);
     transition: all 0.3s ease;
 }
 .collapse-btn  button::before {
@@ -35,8 +34,8 @@
     left: -5px;
     right: -5px;
     bottom: -5px;
-    border-radius: 16px; /* Outer layer */
-    border: 2px solid rgba(0, 190, 160, 0.5); /* Outer layer color */
+    border-radius: 16px; 
+    border: 2px solid rgba(0, 190, 160, 0.5); 
     transition: all 0.3s ease;
     animation: pulse-shadow 2s infinite;
 }
@@ -52,14 +51,22 @@
     }
 }
 
-@media (min-width: 1500px) and (max-width:2000px) {
+@media (min-width: 1400px) and (max-width:2000px) {
+    .img-pricing{
+        transform: translateX(13%);
+    }
+}
+@media (min-width: 1800px) and (max-width:2000px) {
     .nav-img{
-        transform: translateX(11%);
+        transform: translateX(7%);
     }
 }
 @media (min-width: 2000px) and (max-width:2500px) {
     .nav-img{
-        transform: translateX(15%);
+        transform: translateX(10%);
+    }
+    .img-pricing{
+        transform: translateX(10%);
     }
 }
 
